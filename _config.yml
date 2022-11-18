@@ -7,14 +7,14 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              
+title:            Putri Agustinos E-Portfolio
+tagline:          'Academic and Teaching Portfolio'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> a digital hub for academic and teaching portfolio. Made by <a href="https://twitter.com/putriagustinos" target="_blank">@putriagustinos</a>.'
+url:              'agustinosputri.github.io'
 baseurl:          /
 
 author:
-  name:           'Putri Agustinos
+  name:           'Putri Agustinos'
   url:            
 
 paginate:         5
@@ -23,4 +23,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/
+  repo:           https://github.com/agustinosputri

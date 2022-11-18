@@ -1,0 +1,287 @@
+---
+layout: page
+title: CV
+---
+<div class="tabsWrapper clear" id="t0">
+<ul class="tabs">
+    <li>
+        <a href="#t1">ABOUT ME</a></li>
+    <li>
+        <a href="#t2">EDUCATION</a></li>
+    <li>
+        <a href="#t3">EMPLOYMENT</a></li>
+    <li>
+        <a href="#t4">PUBLICATIONS</a></li>
+    <li>
+        <a href="#t5">CONFERENCES</a></li>
+    <li>
+        <a href="#t7a">WORKSHOPS LED</a></li>
+    <li>
+        <a href="#t8">PROJECTS</a></li>
+    <li>
+        <a href="#t11">EXHIBITIONS</a></li>
+    <li>
+        <a href="#t6">AWARDS + GRANTS</a></li>
+    <li>
+        <a href="#t9">SERVICE</a></li>
+    <li>
+        <a href="#t10">SKILLS</a></li>
+<!--     <li id="pdftab">
+        <a href="/404">PDF</a></li>-->
+</ul>
+</div>
+
+<!-- 1: Profile -->
+<div class="clear">
+<h2><span id="t1"></span><a href="#t1"><i class="fa fa-chevron-up"></i></a>About Me</h2>
+    <div class="column-last column-bottom clear">
+        <p>{{ site.data.cv2.profile }}</p>
+    </div>
+</div>
+
+<!-- 2: Education -->
+<div class="clear">
+    <h2><span id="t2"></span><a href="#t2"><i class="fa fa-chevron-up"></i></a> Education</h2>
+    {% for institution in site.data.cv2.education %}
+        <div class="one-fourth column-bottom clear subcat">{{ institution.date }}</div>
+        <div class="three-fourths column-last column-bottom clear">
+            <b>{{ institution.institution }}</b><br/>
+            <span class="cv-meta">{{ institution.degree }} • {{ institution.awards }}</span>
+        </div>
+    {% endfor %}
+</div>
+
+<!-- 3: Employment -->
+<div class="clear">
+<h2><span id="t3"></span><a href="#t3"><i class="fa fa-chevron-up"></i></a> University Employment</h2>
+{% for title in site.data.cv2.employment-university %}
+<div class="one-fourth column-bottom clear subcat">{{ title.date }}</div>
+<div class="three-fourths column-last column-bottom clear">
+    <b>{{ title.title }}</b><br/>
+    <span class="cv-meta">{{ title.company }}.</span>
+    <br />
+</div>
+{% endfor %}
+</div>
+
+<div class="clear">
+<h2><span id="t3"></span><a href="#t3"><i class="fa fa-chevron-up"></i></a> Public Humanities Employment</h2>
+{% for title in site.data.cv2.employment-publichumanities %}
+    <div class="one-fourth column-bottom clear subcat">{{ title.date }}</div>
+    <div class="three-fourths column-last column-bottom clear">
+      <b>{{ title.title }}</b><br/>
+        <span class="cv-meta">{{ title.company }}</span>
+        <br />
+    </div>
+{% endfor %}
+</div>
+
+<!-- 4: Writing -->
+<div class="clear">
+<h2><span id="t4"></span><a href="#t4"><i class="fa fa-chevron-up"></i></a>Publications</h2>
+
+{% for title in site.data.cv2.journals %}
+    {% if forloop.first == true %}
+        <div class="one-fourth column-bottom clear subcat"><em>Journals</em></div>
+    {% else %}
+        <div class="one-fourth column-bottom clear subcat"></div>
+    {% endif %}
+        <div class="three-fourths column-last column-bottom clear">
+            {% if title.url !="" %}
+                <a href="{{ title.url }}" target="_blank"><b>&ldquo;{{ title.title }}&rdquo;</b><br/></a>
+            {% else %}
+                <b>&ldquo;{{ title.title }}&rdquo;</b><br/>
+            {% endif %}
+            <span class="cv-meta">{{ title.date }} • <i>{{ title.venue }}</i></span>
+        </div>
+{% endfor %}
+
+{% for title in site.data.cv2.web %}
+    {% if forloop.first == true %}
+        <div class="one-fourth column-bottom clear subcat"><em>Web</em></div>
+    {% else %}
+        <div class="one-fourth column-bottom clear subcat"></div>
+    {% endif %}
+        <div class="three-fourths column-last column-bottom clear">
+            {% if title.url !="" %}
+                <a href="{{ title.url }}" target="_blank"><b>&ldquo;{{ title.title }}&rdquo;</b><br/></a>
+            {% else %}
+                <b>&ldquo;{{ title.title }}&rdquo;</b><br/>
+            {% endif %}
+            <span class="cv-meta">{{ title.date }} • <i>{{ title.venue }}</i></span>
+        </div>
+{% endfor %}
+
+{% for title in site.data.cv2.datasets %}
+    {% if forloop.first == true %}
+        <div class="one-fourth column-bottom clear subcat"><em>Datasets</em></div>
+    {% else %}
+        <div class="one-fourth column-bottom clear subcat"></div>
+    {% endif %}
+        <div class="three-fourths column-last column-bottom clear">
+            {% if title.url !="" %}
+                <a href="{{ title.url }}" target="_blank"><b>&ldquo;{{ title.title }}&rdquo;</b><br/></a>
+            {% else %}
+                <b>&ldquo;{{ title.title }}&rdquo;</b><br/>
+            {% endif %}
+            <span class="cv-meta">{{ title.date }} • <i>{{ title.venue }}</i></span>
+        </div>
+{% endfor %}
+
+</div>
+
+<!-- 5: Talks -->
+<div class="clear">
+<h2><span id="t5"></span><a href="#t5"><i class="fa fa-chevron-up"></i></a> Conferences</h2>
+
+{% for title in site.data.cv2.conference-talks %}
+    {% if forloop.first == true %}
+        <div class="one-fourth column-bottom clear subcat"><em>Conference Talks</em></div>
+    {% else %}
+        <div class="one-fourth column-bottom clear subcat"></div>
+    {% endif %}
+        <div class="three-fourths column-last column-bottom clear">
+            {% if title.url !="" %}
+                <a href="{{ title.url }}" target="_blank"><b>&ldquo;{{ title.title }}&rdquo;</b><br/></a>
+            {% else %}
+                <b>&ldquo;{{ title.title }}&rdquo;</b><br/>
+            {% endif %}
+            <span class="cv-meta">{{ title.date }} • {{ title.institution }} • {{ title.location }}, <i>{{ title.event }}</i></span>
+        </div>
+{% endfor %}
+
+{% for title in site.data.cv2.conference-other %}
+    {% if forloop.first == true %}
+        <div class="one-fourth column-bottom clear subcat"><em>Roundtables & Panels</em></div>
+    {% else %}
+        <div class="one-fourth column-bottom clear subcat"></div>
+    {% endif %}
+        <div class="three-fourths column-last column-bottom clear">
+            {% if title.url !="" %}
+                <a href="{{ title.url }}" target="_blank"><b>&ldquo;{{ title.title }}&rdquo;</b><br/></a>
+            {% else %}
+                <b>&ldquo;{{ title.title }}&rdquo;</b><br/>
+            {% endif %}
+            <span class="cv-meta">{{ title.date }} • {{ title.institution }} • {{ title.location }}, {{ title.type }}, <i>{{ title.event }}</i></span>
+        </div>
+{% endfor %}
+
+</div>
+
+<!-- 7a: Workshops Led -->
+<div class="clear">
+<h2><span id="t7a"></span><a href="#t7a"><i class="fa fa-chevron-up"></i></a> Workshops Led</h2>
+
+{% for title in site.data.cv2.workshop %}
+        <div class="one-fourth column-bottom clear subcat"></div>
+        <div class="three-fourths column-last column-bottom clear">
+            {% if title.url !="" %}
+                <a href="{{ title.url }}" target="_blank"><b>{{ title.title }}</b></a>
+            {% else %}
+                <b>{{ title.title }}</b>
+            {% endif %} <br/>
+            <span class="cv-meta">{{ title.location }}. {{ title.date }}.</span>
+        </div>
+{% endfor %}
+</div>
+
+<!-- 8: Projects -->
+<div class="clear">
+<h2><span id="t8"></span><a href="#t8"><i class="fa fa-chevron-up"></i></a> Projects</h2>
+
+{% for title in site.data.cv2.projects %}
+    {% if forloop.first == true %}
+        <div class="one-fourth column-bottom clear subcat"><em>Digital Projects</em></div>
+    {% else %}
+        <div class="one-fourth column-bottom clear subcat"></div>
+    {% endif %}
+        <div class="three-fourths column-last column-bottom clear">
+          {% if title.url !="" %}
+          <a href="{{ title.url }}"><b>{{ title.title }}</b></a> • <small>{{ title.role }}. {{ title.date }}.</small>
+          <br />
+    <!--       <span class="cv-meta">{{ title.context }}</span>  -->
+          {% else %}
+          <b>{{ title.title }}</b> • <small>{{ title.role }}. {{ title.date }}.</small>
+          <br />
+        <!--   <span class="cv-meta">{{ title.context }}.</span>  -->
+          {% endif %}
+        </div>
+{% endfor %}
+
+<div class="clear">
+<h2><span id="t3"></span><a href="#t11"><i class="fa fa-chevron-up"></i></a>Exhibitions</h2>
+
+{% for title in site.data.cv2.exhibitions %}
+  {% if title.page-tag == 'publichumanities' %}
+    {% if forloop.first == true %}
+        <div class="one-fourth column-bottom clear subcat"><em>Exhibitions</em></div>
+    {% else %}
+        <div class="one-fourth column-bottom clear subcat"></div>
+    {% endif %}
+    <div class="three-fourths column-last column-bottom clear">
+      {% if title.url !="" %}
+      <a href="{{ title.url }}"><b>{{ title.title }}</b></a> • <small>{{ title.role }}. {{ title.date }}.</small>
+      <br />
+      {% else %}
+      <b>{{ title.title }}</b> • <small>{{ title.role }}. {{ title.date }}.</small>
+      <br />
+      {% endif %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<!-- 6: Awards -->
+<div class="clear">
+<h2><span id="t6"></span><a href="#t6"><i class="fa fa-chevron-up"></i></a> Awards + Grants</h2>
+    {% for title in site.data.cv2.awards %}
+        <div class="one-fourth column-bottom clear subcat"></div>
+        <div class="three-fourths column-last column-bottom clear">
+            {% if title.context !="" %}
+                <b>{{ title.title }}</b><br/>
+                <span class="cv-meta">{{ title.secondary }} {{ title.date }}</span><br/>
+                <div class="context" id="award{{ forloop.index }}" style="display:none;"><p>{{ title.context }}</p></div>
+            {% else %}
+                <b>{{ title.title }}</b><br/>
+                <span class="cv-meta">{{ title.secondary }} {{ title.date }}.</span>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+
+<!-- 9: Membership + Service -->
+<div class="clear">
+<h2><span id="t9"></span><a href="#t9"><i class="fa fa-chevron-up"></i></a>Membership & Service</h2>
+        <div class="one-fourth column-bottom clear subcat">Membership</div>
+            <div class="three-fourths column-last column-bottom clear">
+                {% for title in site.data.cv2.membership%}
+                    <b>{{ title.title }}</b> • <span class="cv-meta">{{ title.institution }}. {{ title.year }}.</span><br/>
+                {% endfor %}
+            </div>
+        <div class="one-fourth column-bottom clear subcat">Service</div>
+            <div class="three-fourths column-last column-bottom clear">
+                {% for title in site.data.cv2.service %}
+                    <b>{{ title.title }}</b> • <span class="cv-meta">{{ title.institution }}. {{ title.year }}.</span><br/>
+                {% endfor %}
+            </div>
+</div>
+
+<!-- 10: Skills -->
+<div class="clear">
+<h2><span id="t10"></span><a href="#t10"><i class="fa fa-chevron-up"></i></a> Skills & Training</h2>
+
+<div class="one-fourth column-bottom clear subcat">Skills</div>
+    <div class="three-fourths column-last column-bottom clear">
+        {% for title in site.data.cv2.skills %}
+            <b>{{ title.title }}</b> • <span class="cv-meta">{{ title.things }}.</span><br/>
+        {% endfor %}
+    </div>
+
+    <div class="one-fourth column-bottom clear subcat">Trainings</div>
+        <div class="three-fourths column-last column-bottom clear">
+            {% for title in site.data.cv2.training%}
+                <b>{{ title.title }}</b> • <span class="cv-meta">{{ title.institution }}. {{ title.date }}.</span><br/>
+            {% endfor %}
+        </div>
+
+</div>
