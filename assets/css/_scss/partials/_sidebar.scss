@@ -1,0 +1,28 @@
+// Fix the weird link color
+.sidebar-about h1 a {
+	padding-top: 0.1rem;
+}
+
+// Menu
+.sidebar-nav-item {
+	// font-weight: 100;
+	font-size: 1.4rem;
+	line-height: 0.9;
+	margin-bottom: 0.6rem;
+	padding-top: 0.13rem;
+}
+
+// Sharesheet
+.sharesheet {
+	padding-bottom: 1rem;
+	font-size: 80%;
+}
+.shareicon {
+	padding-right: 0.85rem;
+	font-size: 1.6rem !important; // 1.4 rem for six icons
+}
+
+// Credit
+.credit {
+	font-size: 0.9rem;
+}

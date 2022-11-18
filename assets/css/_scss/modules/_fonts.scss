@@ -1,0 +1,150 @@
+// Call fonts
+@font-face {
+    font-family: 'Calibre';
+    src: url("/assets/fonts/Calibre-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: url("/assets/fonts/Calibre-Bold.woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: url("/assets/fonts/Calibre-Italic.woff");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: url("/assets/fonts/Calibre-BoldItalic.woff");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tiempos';
+    src: url("/assets/fonts/TiemposTextWeb-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Tiempos';
+    src: url("/assets/fonts/TiemposTextWeb-Semibold.woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Tiempos';
+    src: url("/assets/fonts/TiemposTextWeb-RegularItalic.woff");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Tiempos';
+    src: url("/assets/fonts/TiemposTextWeb-SemiboldItalic.woff");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Untitled Serif';
+    src: url("/assets/fonts/UntitledSerif-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Untitled Serif';
+    src: url("/assets/fonts/UntitledSerifWeb-Bold.woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Untitled Serif';
+    src: url("/assets/fonts/UntitledSerif-RegularItalic.woff");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Tiempos';
+    src: url("/assets/fonts/TiemposTextWeb-SemiboldItalic.woff");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'iA Writer Duo S';
+    src: url("/assets/fonts/iAWriterDuoS-Bold.woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'iA Writer Duo 2';
+    src: url("/assets/fonts/iAWriterDuoS-BoldItalic.woff2");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'iA Writer Duo 2';
+    src: url("/assets/fonts/iAWriterDuoS-Italic.woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'iA Writer Duo 2';
+    src: url("/assets/fonts/iAWriterDuoS-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+$primaryfont: "Calibre", sans-serif;
+$monospacefont: "iA Writer Duo 2", monospace;
+$essayfont: "Untitled Serif", "Tiempos", serif;
+
+// Fonts Style
+.sidebar-about h1, body, .pagination {
+	font-family: $primaryfont;
+}
+.lead {
+    font-family: $essayfont;
+    font-style: italic;
+}
+.page-title {
+	font-family: $essayfont;
+  margin-bottom: 1.5rem;
+}
+.posts, .post, .content {
+	& p {
+		font-family: $essayfont;
+        @media (min-width: 38em) {
+            font-size: 0.95em;
+            line-height: 1.4rem;
+        }
+        text-rendering: optimizelegibility;
+	}
+    & ul {
+        font-family: $essayfont;
+        @media (min-width: 38em) {
+            font-size: 0.85em;
+            line-height: 1.35rem;
+        }
+        text-rendering: optimizelegibility;
+    }
+    & ol {
+        font-family: $essayfont;
+        @media (min-width: 38em) {
+            font-size: 0.85em;
+            line-height: 1.35rem;
+        }
+        text-rendering: optimizelegibility;
+    }
+}
+body {
+    color: $text-color;
+    hanging-punctuation: first;
+}
+.revision {
+  font-family: $primaryfont;
+}

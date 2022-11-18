@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/jeffreymoro
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jeffreymoro.com
+  * I am jeffreymoro (https://keybase.io/jeffreymoro) on keybase.
+  * I have a public key ASCLOMhkwGlz9Ddzj-0rOE2XLIG2Vq9ymqrRIAYlYJO1NAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010137bd3f60bd289593196d4fc387df3cbc09da4adc132b642af5fc6030f789f2e30a",
+            "host": "keybase.io",
+            "kid": "01208b38c864c06973f437738fed2b384d972c81b656af729aaad12006256093b5340a",
+            "uid": "bfd0f2d67230f1033272978de9437919",
+            "username": "jeffreymoro"
+        },
+        "service": {
+            "hostname": "jeffreymoro.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1479614068,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1479614005,
+        "hash": "c2a8b1f1e02546bac22eec204cc4aa90c5f03e80acb8a251c0e95e0c0145e3977b70da994462e651f8068e3690a43d27caa1942f4754c47753aa3626f1d24620",
+        "seqno": 725948
+    },
+    "prev": "256d9e358f8fef1c1bf79bd619ad6b21cbb65397816be3e4c1881d4ce055f4ae",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgizjIZMBpc/Q3c4/tKzhNlyyBtlavcpqq0SAGJWCTtTQKp3BheWxvYWTFAvp7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMzdiZDNmNjBiZDI4OTU5MzE5NmQ0ZmMzODdkZjNjYmMwOWRhNGFkYzEzMmI2NDJhZjVmYzYwMzBmNzg5ZjJlMzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOGIzOGM4NjRjMDY5NzNmNDM3NzM4ZmVkMmIzODRkOTcyYzgxYjY1NmFmNzI5YWFhZDEyMDA2MjU2MDkzYjUzNDBhIiwidWlkIjoiYmZkMGYyZDY3MjMwZjEwMzMyNzI5NzhkZTk0Mzc5MTkiLCJ1c2VybmFtZSI6ImplZmZyZXltb3JvIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJqZWZmcmV5bW9yby5jb20iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ3OTYxNDA2OCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDc5NjE0MDA1LCJoYXNoIjoiYzJhOGIxZjFlMDI1NDZiYWMyMmVlYzIwNGNjNGFhOTBjNWYwM2U4MGFjYjhhMjUxYzBlOTVlMGMwMTQ1ZTM5NzdiNzBkYTk5NDQ2MmU2NTFmODA2OGUzNjkwYTQzZDI3Y2FhMTk0MmY0NzU0YzQ3NzUzYWEzNjI2ZjFkMjQ2MjAiLCJzZXFubyI6NzI1OTQ4fSwicHJldiI6IjI1NmQ5ZTM1OGY4ZmVmMWMxYmY3OWJkNjE5YWQ2YjIxY2JiNjUzOTc4MTZiZTNlNGMxODgxZDRjZTA1NWY0YWUiLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxED1xWRDy/jKDrgFWaJQov/G4GEO216JPxpXzttaYmJK4YNXy20UQ4xvHrDT/ikQnlKzDScSMKyOeReBMHaXM3wGqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgiHheUAm6JYXYNpOBUu2cIyI0dCgiW52VX94/Z0Abbt6jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jeffreymoro
+
+==================================================================

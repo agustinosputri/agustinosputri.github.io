@@ -1,0 +1,47 @@
+.tabsWrapper {
+	padding-bottom: 1rem;
+	width: auto;
+}
+
+.tabs {
+	font-family: $primaryfont !important;
+	margin-bottom: 18px;
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none !important;
+	line-height: 1.5 !important;
+}
+.tabs li {
+	float:left;
+	display: list-item;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.tabs li a {
+	font-weight: normal;
+	font-size: 0.774rem;
+	display: inline-block;
+	text-transform:uppercase;
+	padding: 4px 12px;
+	background:transparent;
+	color:#888888;
+	border:1px solid #888888;
+	-webkit-transition:0.2s all linear;
+	-moz-transition:0.2s all linear;
+	transition:0.2s all linear;
+}
+.tabs li a:hover {
+	color:#222222;
+	border-color:#222222;
+}
+.tabs li.active a {
+	color: #FFFFFF;
+	border-color:#222222;
+	background:#222222;
+}
+
+#pdftab a {
+	color: #fff;
+	border-color: #222;
+	background-color: #222;
+}

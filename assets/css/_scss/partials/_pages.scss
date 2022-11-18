@@ -1,0 +1,129 @@
+// Columns
+
+.one-half,
+.one-third,
+.two-thirds,
+.three-fourths,
+.one-fourth
+{
+	float:left;
+	margin-bottom: 1rem;
+	margin-right:4%;
+	position:relative;
+	display:inline;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.one-fourth {
+	width:22%;
+}
+.one-half {
+	width:48%;
+}
+.one-third {
+	width:30.66%;
+}
+.two-thirds {
+	width:65.33%;
+}
+.three-fourths {
+	width:74%;
+}
+
+//// Clearing sides and bottoms
+.column-last {
+	clear:right;
+	margin-right:0;
+}
+.column-bottom {
+	margin-bottom: 0.75rem;
+}
+
+// Specialty Columns
+
+//// General
+.bleed {
+	margin: 0 -9999rem;
+	padding: 0.25rem 9999rem;
+}
+
+// Projects
+.project {
+ 	padding-bottom: 1rem;
+}
+.projectName {
+	color: $base-color;
+}
+
+// Portfolio
+.row {
+	overflow: hidden;
+	padding: {
+		left: 1rem;
+		top: 1rem;
+		right: 1rem;
+		//bottom: 0rem;
+	}
+	color: #fff;
+}
+.row h3 {
+	margin-top: 0rem;
+	color: #fff;
+	font-size: 1.1rem;
+}
+.row a {
+	color: $accent-color !important;
+}
+.row-final {
+	margin-bottom: 2rem;
+}
+
+.research-meta {
+	line-height: 1.2;
+}
+
+// Front Page
+
+.selfie {
+	width: 45%;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-right: 30px;
+	float: left;
+}
+
+// CV
+
+//// Styles
+.subcat {
+	text-align: right;
+	font-style: italic;
+}
+
+.project-header {
+	text-align: center;
+}
+
+.cv-meta {
+	font-size: smaller;
+}
+
+//// Media Queries for Mobile
+
+@media (max-width: 58em) {
+
+	.one-half,
+	.one-third,
+	.two-thirds,
+	.three-fourths,
+	.one-fourth {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	.selfie {
+		width: 100%;
+		float: none;
+	}
+}

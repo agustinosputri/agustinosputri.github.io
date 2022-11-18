@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.institution }} • {{ page.number }} • {{ page.semester }} • <a href="/teaching/">Back to Teaching</a><!-- • <em>tagged in {% for tag in page.tags %}<a href="/tags/{{ tag | downcase | replace: ' ', '_' }}/">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</em>--></span>
+  {% if page.topic %}<div class="topic">On: {{ page.topic }}</div>{% endif %}
+  {{ content }}
+</div>
+
+<div class="related">
+  <a href="/teaching/">↩ Back to Teaching</a>
+</div>

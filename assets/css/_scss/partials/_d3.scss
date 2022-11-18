@@ -1,0 +1,52 @@
+// Responsive D3
+
+.d3canvas {
+  width: auto;
+  height: auto;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+// Sproing
+
+#sproingcanvas {
+  width: auto;
+  height: auto;
+}
+
+#sproingcanvas .svg-container {
+  padding-bottom: 70%;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: left;           
+  width: 15em;                  
+  height: auto;                 
+  padding: 5px;             
+  font: 0.75rem "Calibre";        
+  background: $base-color;
+  color: #fff;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+
+// Timeline
+
+#timelinecanvas .svg-container {
+  padding-bottom: 40%;
+}

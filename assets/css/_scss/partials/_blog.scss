@@ -1,0 +1,89 @@
+// Blog Styles
+.post-date {
+	color: #000;
+	& a {
+		color: $base-color;
+	}
+}
+figcaption {
+	font-style: italic;
+}
+
+// Pagination padding fix
+.pagination-item {
+	padding-bottom: 1rem !important;
+}
+
+// On Amnesia
+
+#amnesiaborder0 {
+background: url(/assets/img/amnesiaborder0.jpg) repeat center center fixed;
+width:100%;
+height:100px;
+}
+#amnesiaborder1 {
+background: url(/assets/img/amnesiaborder1.jpg) repeat center center fixed;
+width:100%;
+height:100px;
+}
+#amnesiaborder2 {
+background: url(/assets/img/amnesiaborder2.jpg) repeat center center fixed;
+width:100%;
+height:100px;
+}
+
+// Captions and footnotes styling
+
+.caption {
+	padding-bottom: 1.5rem;
+	font-size: 0.9rem;
+}
+.footnotes {
+	& p {
+		font-family: $primaryfont;
+		font-size: 1em;
+	}
+	font-size: 0.8rem;
+}
+.bigfoot-footnote__content p {
+    -webkit-font-smoothing: antialiased;
+    font-family: $primaryfont;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+.topic {
+	font-size: 0.8rem;
+	padding-bottom: 1.2em;
+	margin-left: 15%;
+	margin-right: 10%;
+}
+
+// General spacing
+.post img, .post iframe {
+	margin-top: 1.5rem;
+}
+.embed-no-caption {
+	padding-bottom: 1.5rem;
+}
+.post-date {
+	padding-bottom: 0.5rem;
+	color: $text-color;
+}
+h2 {
+	padding-top: 1rem;
+}
+
+// Fixes some code weirdness
+.highlight {
+	margin-left: 0;
+	overflow-x: auto;
+}
+
+// De-greens dates in the chronological archive
+.related-posts li small, .related-posts li a:hover small {
+	color: #333;
+}
+
+.related-posts li {
+	font-family: $primaryfont;
+}

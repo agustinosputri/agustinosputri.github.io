@@ -1,0 +1,66 @@
+// Fix retina.js being dumb
+img {
+ 	height: auto;
+  width: auto;
+}
+
+// Clear things!
+.clear:before, .clear:after {
+	content: ".";
+ 	display: block;
+ 	overflow: hidden;
+ 	visibility: hidden;
+ 	font-size: 0;
+ 	line-height: 0;
+ 	width: 0;
+ 	height: 0;
+}
+.clear:after {
+	clear: both;
+}
+
+// Media Calls
+
+@media (min-width: 48em) {
+
+  //// Content width all around.
+  .content {
+    max-width: 40rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+  }
+  //// Sidebar about height on desktop
+  .sidebar-about {
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width: 64em) {
+
+  //// Width
+  .content {
+    margin-left: 20rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 48em) {
+  
+  //// Column adjustments
+  .one-half,
+  .one-third,
+  .two-thirds,
+  .three-fourths,
+  .one-fourth {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  //// Sidebar menu adjustment
+  .sidebar-nav-item {
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

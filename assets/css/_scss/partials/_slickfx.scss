@@ -1,0 +1,159 @@
+// Sliders
+
+#mailbox {
+	position: inline-block;
+    display: none;
+    font-size: 0.76rem;
+    font-weight: 700;
+}
+.context {
+    position: inline-block;
+    display: none;
+    border-left: 3px solid $accent-color;
+    padding-left: 0.75rem;
+    //margin-top: 0.5rem;
+    font-size: smaller;
+}
+.context p {
+		line-height: 1.3rem !important;
+		padding-top: 0.1em;
+}
+.project-url {
+    font-size: smaller;
+}
+
+// Animated links
+
+.content a, .credit a, .projectName {
+    position: relative;
+    padding-bottom: 0px;
+
+    &:hover {
+        text-decoration: none;
+        &:before {
+            width: 100%;
+            background: $accent-color;
+            transition: width .5s ease;
+        }
+        &:after {
+            width: 100%;
+            background: transparent;
+            transition: all 0s ease;
+        }
+    }
+
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        height: 2px;
+        width: 0;
+        transition: width 0s ease, background .5s ease;
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        height: 2px;
+        width: 0;
+        background: $accent-color;
+        transition: width .5s ease;
+    }
+}
+
+.post p a {
+    &:before {
+        bottom: -1.5px;
+        height: 1.5px;
+    }
+    &:after {
+        bottom: -1.5px;
+        height: 1.5px;
+    }
+}
+
+.sidebar-nav a {
+    padding-bottom: 3px;
+
+    &:before {
+        bottom: -5px;
+        height: 2px;
+    }
+
+    &:after {
+        bottom: -5px;
+        height: 2px;
+        width: 0;
+    }
+}
+
+@media (min-width: 48em) {
+.sidebar-nav a {
+    position: relative;
+
+    &:hover {
+        text-decoration: none;
+        &:before {
+            width: 100%;
+            background: $accent-color;
+            transition: width .5s ease;
+        }
+        &:after {
+            width: 100%;
+            background: transparent;
+            transition: all 0s ease;
+        }
+    }
+
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 0;
+        transition: width 0s ease, background .5s ease;
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        width: 0;
+        background: $accent-color;
+        transition: width .5s ease;
+    }
+}
+}
+
+// Link Color
+.container a, .page a, .projectName, .related-posts li a {
+    -moz-transition: color .5s ease;
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease;
+    text-decoration: none !important;
+
+    &:hover {
+        color: $accent-color !important;
+    }
+}
+.sidebar a, .row a {
+    -moz-transition: color .5s ease;
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease;
+    text-decoration: none !important;
+
+    &:hover {
+        color: $accent-color-oncolor;
+    }
+}
+.related-posts li a:hover small {
+    color: #999;
+}

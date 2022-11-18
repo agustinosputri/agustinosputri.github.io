@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% assign colors = site.data.work[page.slug] %}
+{% assign title_array = page.title | split: ' ' %}
+
+<h1>{{ page.title | replace: ' - ', ': ' }}</h1>
+<div><img src="{{ '/assets/img/work/' | append: page.banner-img }}" alt="{{ page.title }}"></div>
+<h5>{{ page.context }}</h5>
+{% if page.link %}<h3 class="tabs"><a href="{{ page.link }}">Visit project</a></h3>{% endif %}
+<br>
+<b>Role: </b><span>{{ page.role }}</span><br />
+<b>Where: </b><span>{{ page.location }}</span><br />
+<b>When: </b><span>{{ page.start-year }}-{{ page.end-year }}</span><br />
+{% if page.img-source-url %}
+<b>Image Source: </b><span><a href="{{ page.img-source-url }}">{{ page.img-source }}</a><span>{% endif %}
+
+	<p>{{ content }}</p>
+	  <br>

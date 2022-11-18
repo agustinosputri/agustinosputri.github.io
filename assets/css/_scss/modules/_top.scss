@@ -1,0 +1,9 @@
+// Bleed overflow
+html, body {
+	overflow-x: hidden;
+}
+
+// Font-smoothing
+body {
+	-webkit-font-smoothing: antialiased;
+}
