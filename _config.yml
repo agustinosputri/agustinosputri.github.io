@@ -17,8 +17,8 @@ author:
   name:           'Putri Agustinos'
 
 
-paginate:         10
-paginate_path:    blog/page:num
+paginate:         5
+paginate_path:    "/blog/page:num/"
 
 # Sass settings
 sass:
