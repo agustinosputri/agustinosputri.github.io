@@ -1,26 +1,67 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
-permalink:        pretty
+permalink:        /blog/:categories/:year-:month-:day-:title/
 relative_permalinks: true
 
 # Setup
 title:            Putri Agustinos E-Portfolio
 tagline:          'Academic and Teaching Portfolio'
 description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> a digital hub for academic and teaching portfolio. Made by <a href="https://twitter.com/putriagustinos" target="_blank">@putriagustinos</a>.'
-url:              'agustinosputri.github.io'
+url:              'https://agustinosputri.github.io'
 baseurl:          /
 
 author:
   name:           'Putri Agustinos'
   url:            
 
-paginate:         5
+paginate:         10
+paginate_path:    blog/page:num
 
-# Custom vars
-version:          2.1.0
+# Sass settings
+sass:
+  sass_dir: assets/css/_scss
+  style: compressed
 
-github:
-  repo:           https://github.com/agustinosputri
+# Full URL for indexing
+url: https://agustinosputri.github.io
+
+#Google Services
+#google_analytics:
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+# Markdown
+kramdown:
+  smart_quotes: ["lsquo", "rsquo", "ldquo", "rdquo"]
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Collections
+collections:
+  work:
+    output: true 
+    permalink: work/:path/
+  tags:
+    output: true 
+    permalink: tag/:path/
+
+# Excludes
+exclude:
+  - CNAME
+  - LICENSE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
