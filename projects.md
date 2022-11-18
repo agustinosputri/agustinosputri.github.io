@@ -15,7 +15,7 @@ title: Projects
 </ul>
 </div>
 
-Over the past five years in higher education, museums, and cultural institutions, I have helped produce a variety of projects to deepen public and scholarly engagement with digital materials. This portfolio shares a sampling of my current and past projects, from tools to exhibitions.
+Over the past few years in education, language learning, civic engagement, and technology, I have helped produce a variety of projects in related to education. This portfolio shares a sampling of my current and past projects.
 
 ## Current Projects 
 

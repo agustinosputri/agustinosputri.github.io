@@ -2,35 +2,49 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="/">
           {{ site.title }}
         </a>
       </h1>
       <p class="lead">{{ site.description }}</p>
     </div>
 
+    <!-- Sidebar -->
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <a class="sidebar-nav-item" href="/Home">Home</a>
+      <a class="sidebar-nav-item" href="/cv">CV</a>
+      <a class="sidebar-nav-item" href="/teachingphilosophy">Teaching Philosophy</a>
+      <a class="sidebar-nav-item" href="/teachingportfolio"> Teaching Portfolio</a>
+      <a class="sidebar-nav-item" href="/projects">Projects</a>
+      <a class="sidebar-nav-item" href="/blog">Blog</a>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <!-- Share sheet -->
+    <div class="sharesheet">
+      <!-- <a href="https://www.twitter.com/putriagustinos" target="_blank"><i class="fa fa-fw fa-twitter shareicon"></i></a> -->
+      <a href="https://www.github.com/agustinosputri" target="_blank"><i class="fa fa-fw fa-github shareicon"></i></a>
+      <a href="/atom.xml" target="_blank"><i class="fa fa-fw fa-rss shareicon"></i></a>
+      <!--<a id="showsearch"><i class="fa fa-fw fa-search shareicon"></i></a>-->
+      <a id="showmailbox"><i class="fa fa-fw fa-envelope-o shareicon"></i></a>
+        <div id="mailbox">Write me at agustinosputri [at] gmail.com</div>
+        <!--<div id="search">
+          <a id="searchsite">
+            <form method="get" action="https://duckduckgo.com/" target="_blank">
+              <input type="search" name="q" maxlength="255" placeholder="DuckDuckGo search">
+              <input type="hidden" name="sites" value="jeffreymoro.com">
+              <input type="hidden" name="k7" value="#faf8f8">
+              <input type="hidden" name="kj" value="#b33">
+              <input type="hidden" name="ky" value="#fafafa">
+              <input type="hidden" name="kx" value="b">
+              <input type="hidden" name="ko" value="-1">
+              <input type="hidden" name="k1" value="-1">
+              <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+            </form>
+          </a>
+        </div>-->
+    </div>
+    <div class="credit">
+      <p>&copy; {{ site.time | date: '%Y' }} / I built this with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> & help from <a href="https://github.com/jeffreymoro" target="_blank">@jeffreymoro</a></p>
+    </div>
   </div>
 </div>

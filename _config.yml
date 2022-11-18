@@ -7,9 +7,9 @@ permalink:        /blog/:categories/:year-:month-:day-:title/
 
 
 # Setup
-title:            Putri Agustinos E-Portfolio
-tagline:          'Academic and Teaching Portfolio'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> a digital hub for academic and teaching portfolio. Made by <a href="https://twitter.com/putriagustinos" target="_blank">@putriagustinos</a>.'
+title:            Putri's Site
+tagline:          ''
+description:      'Academic and Teaching Portfolio'
 url:              'https://agustinosputri.github.io'
 baseurl:          /
 

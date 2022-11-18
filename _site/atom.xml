@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Putri Agustinos E-Portfolio</title>
+ <title>Putri's Site</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-11-17T22:07:09-05:00</updated>
+ <updated>2022-11-17T23:50:15-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Putri Agustinos</name>
