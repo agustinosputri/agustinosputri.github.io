@@ -53,6 +53,7 @@ employment-university:
     page-tag: project management
     page-tag-tech: intercultural
 
+
 ########### Industry Employment ###########
 employment-industry:
   - title: Adult ESL Co-Teacher
@@ -93,9 +94,10 @@ employment-industry:
     page-tag-tech: teaching
     page-tag: teching
 
+
 ########### Publications ###########
 
-poster:
+posters:
   - title: "Critical Pedagogy in Education Technology: Machine Translation in EFL Writing"
     venue: "PennTESOL-East's Spring Virtual Conference"
     date: "2021"
@@ -106,7 +108,10 @@ journals:
     venue: "Journal of English Education and Teaching"
     date: "2018"
     url: "https://ejournal.unib.ac.id/index.php/JEET/article/view/6837"
-
+  - title: "EFL Students’ Perception Towards Online Learning: What to Consider?"
+    venue: "IJELTAL (Indonesian Journal of English Language Teaching and Applied Linguistics"
+    date: "2022"
+    url: "https://ijeltal.org/index.php/ijeltal/article/view/1242"
 
 #web:
 #  - title: "Lorem ipsum"
@@ -119,14 +124,14 @@ journals:
 
 ########### Talks ###########
 
-#Talks:
-#  - title: "Coffe Chats: University of Pennsylvania Experience"
-#    institution:  USINDO
-#    location: Indonesia
-#    date: Nov. 2018
-#    url: "https://www.hastac.org/blogs/sheishistoric/2018/05/02/oah18-digital-public-humanities-historians"
-#    page-tag-tech: digital
-#    page-tag: loremipsum
+Talks:
+  - title: "Coffe Chats: University of Pennsylvania Experience"
+    institution:  USINDO
+    location: Indonesia
+    date: Nov. 2018
+    url: "https://www.hastac.org/blogs/sheishistoric/2018/05/02/oah18-digital-public-humanities-historians"
+    page-tag-tech: digital
+    page-tag: loremipsum
 
 ########### Awards and Honors ###########
 awards:
@@ -205,3 +210,45 @@ workshop:
     organizer: "RDDS Data Jam"
     location: "University of Pennsylvania Libraries"
     date: "2022"
+
+########### Projects ###########
+current-projects:
+  - title: "Doublespeak"
+    company: "Price Lab for Humanities & Penn Libraries RDDS"
+    role: "DH Project Management Assistant"
+    date: "2022"
+    url: "https://www.doublespeakmagazine.org/"
+    page-tag-tech: digitalhumanities
+    page-tag: digitalhumanities
+    page-tag: projectmanagement
+  - title: "Remember Black Philly"
+    company: Price Lab for Humanities & Penn Libraries RDDS
+    role: DH Project Management Assistant
+    date: "2022"
+    url: "https://rememberblackphilly.com/"
+    page-tag-tech: digitalhumanities
+    page-tag: digitalhumanities
+    page-tag: projectmanagement
+
+past-projects:
+  - title: "Bryan Gunawan Project"
+    company: Anak Muda Mengajak
+    role: Learning Management System Specialist
+    date: "2018 - 2021"
+    url: "https://www.instagram.com/bryangunawan.project/"
+    page-tag-tech: LMS
+    page-tag: LMS
+  - title: "Sumbangi Sambangi"
+    company: XL Axiata Future Leaders
+    role: Project Manager
+    date: "2018 - 2021"
+    url: "https://www.instagram.com/sumbangi.sambangi/"
+    page-tag-tech: projectmanagement
+    page-tag: projectmanagement
+
+exhibitions:
+  - title: "Upcoming - Curriculum Design for Adult Refugees Citizenship ESL Course"
+    company: University of Pennsylvania
+    date: "2022"
+    page-tag-tech: curriculumdesign
+    page-tag: curriculumdesign

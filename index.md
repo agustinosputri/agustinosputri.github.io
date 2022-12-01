@@ -18,7 +18,7 @@ Check out [my personal informal writing](https://medium.com/@putri.agustinos).
 Thanks for this resources that had helped me build the digital portfolio:
 
 * Built for [Jekyll](http://jekyllrb.com)
-* Helped by [Hyde] (https://hyde.getpoole.com/)
+* Helped by [Hyde](https://hyde.getpoole.com/)
 * Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
 * Coded with [Sublime Text](http://sublimetext.com), an amazing code editor
 * Fieldwork [TESOL Educational Linguistic](https://www.gse.upenn.edu/academics/programs/tesol-masters) Course at [Penn GSE](https://www.gse.upenn.edu/), [University of Pennsylvania](https://www.upenn.edu/)
