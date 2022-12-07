@@ -18,33 +18,39 @@ title: Projects
 Over the past few years in education, language learning, civic engagement, and technology, I have helped produce a variety of projects in related to education. This portfolio shares a sampling of my current and past projects.
 
 ## Current Projects 
+<!-- Current Porject -->
 
-{% assign sorted_posts = site.work | sort:"start-year" | reverse %}
-{% for post in sorted_posts %}
-{% if post.status == "current" %}
-### [{{ post.title }}]({{ site.url }}/work/{{ post.slug }}) 
-*{{ post.role }} • {{ post.location }} • {{ post.start-year }}-{{ post.end-year }}*
-
-{{ post.context }}
-
-
+{% for title in site.data.cv2.current-projects %}
+{% if title.url !="" %}
+### [{{ title.title }}]({{ title.url }}) 
+{% else %}
+### {{ title.title }} 
 {% endif %}
+*{{ title.role }} • {{ title.location }} • {{ title.date }}*{{ post.context }}
+
+{{ title.context }}
 {% endfor %}
+
 
 ## Past Projects
+<!-- Past Porject -->
 
-{% for post in sorted_posts %}
-{% if post.status == "legacy" %}
-### [{{ post.title }}]({{ site.url }}/work/{{ post.slug }}) 
-*{{ post.role }} • {{ post.location }} • {{ post.start-year }}-{{ post.end-year }}*
-
-{{ post.context }}
-
+{% for title in site.data.cv2.past-projects %}
+{% if title.url !="" %}
+### [{{ title.title }}]({{ title.url }}) 
+{% else %}
+### {{ title.title }} 
 {% endif %}
-{% endfor %}
+*{{ title.role }} • {{ title.location }} • {{ title.date }}*{{ post.context }}
+
+{{ title.context }}
+
+
+    {% endfor %}
+
 
 ## Exhibitions
-<!-- Exhibitions-->
+<!-- Exhibitions -->
 
 {% for title in site.data.cv2.exhibitions %}
 {% if title.url !="" %}
