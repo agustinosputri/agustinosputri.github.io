@@ -216,6 +216,7 @@ current-projects:
   - title: "Doublespeak"
     company: "Price Lab for Humanities & Penn Libraries RDDS"
     role: "DH Project Management Assistant"
+    location: "Philadelphia, United States"
     date: "2022"
     url: "https://www.doublespeakmagazine.org/"
     page-tag-tech: digitalhumanities
@@ -224,6 +225,7 @@ current-projects:
   - title: "Remember Black Philly"
     company: Price Lab for Humanities & Penn Libraries RDDS
     role: DH Project Management Assistant
+    location: Philadelphia, United States
     date: "2022"
     url: "https://rememberblackphilly.com/"
     page-tag-tech: digitalhumanities
@@ -234,6 +236,7 @@ past-projects:
   - title: "Bryan Gunawan Project"
     company: Anak Muda Mengajak
     role: Learning Management System Specialist
+    location: Jakarta, Indonesia
     date: "2018 - 2021"
     url: "https://www.instagram.com/bryangunawan.project/"
     page-tag-tech: LMS
@@ -241,14 +244,33 @@ past-projects:
   - title: "Sumbangi Sambangi"
     company: XL Axiata Future Leaders
     role: Project Manager
+    location: Jakarta, Indonesia
     date: "2018 - 2021"
     url: "https://www.instagram.com/sumbangi.sambangi/"
     page-tag-tech: projectmanagement
     page-tag: projectmanagement
+  - title: "SEC-IONAIRE"
+    company: University of Bengkulu, English Department
+    role: Project Manager
+    location: Bengkulu, Indonesia
+    date: "2016"
+#   url: " "
+    page-tag-tech: projectmanagement
+    page-tag: projectmanagement
 
-exhibitions:
-  - title: "Upcoming - Curriculum Design for Adult Refugees Citizenship ESL Course"
+presentations:
+  - title: "Curriculum Design for Adult Refugees Citizenship ESL Course"
     company: University of Pennsylvania
+    role: Part of Course Assignment
+    location: Philadelphia, United States
     date: "2022"
     page-tag-tech: curriculumdesign
+    page-tag: curriculumdesign
+  - title: "NASANTARA"
+    company: University of Pennsylvania & NASA Global Space Apps Challenge
+    role: Project Manager, Digital Humanities, Academic Researcher
+    location: Philadelphia, United States
+    date: "2022"
+    url: "https://2022.spaceappschallenge.org/challenges/2022-challenges/steam/teams/nasantara/project"
+    page-tag-tech: instructionaldesign
     page-tag: curriculumdesign

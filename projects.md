@@ -49,10 +49,10 @@ Over the past few years in education, language learning, civic engagement, and t
     {% endfor %}
 
 
-## Exhibitions
+## Presentations
 <!-- Exhibitions -->
 
-{% for title in site.data.cv2.exhibitions %}
+{% for title in site.data.cv2.presentations %}
 {% if title.url !="" %}
 ### [{{ title.title }}]({{ title.url }}) 
 {% else %}
