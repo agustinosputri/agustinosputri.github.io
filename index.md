@@ -5,7 +5,7 @@ title: About
 
 ![Image of Putri Agustinos](/assets/img/putri.png){:class="selfie"}
 
-Hi there! I'm Putri. 
+Hi there! I'm Putri Agustinos. 
 
 Currently a second year graduate student at Penn Graduate School of Education in Educational Linguistics. My interests are ranging from the intersection of language learning & assessment, civic engagement, critical studies, and technology including but not limited to Digital Humanities in Applied Linguistic. In Summer 2022, I am partaking in [Penn Price Lab](https://pricelab.sas.upenn.edu/) as A Digital Humanities Project Management Assistant and I am also assisting international high school students at [Penn English Language Program](https://www.lps.upenn.edu/).
 
