@@ -13,8 +13,7 @@ Curtis et al. 2019. <em>Future 4: English for Work Life, and Academic Success.</
 
 
 ### USCIS - Citizenship test (2020)
-[USCIS Self Study Guide]
-(https://www.uscis.gov/citizenship-resource-center/civics-test-2020-version/study-for-the-test-2020-version)
+[USCIS Self Study Guide](https://www.uscis.gov/citizenship-resource-center/civics-test-2020-version/study-for-the-test-2020-version)
 
 ### Grammar books - Betty Azar
 - Azar, B. S. (2003). Fundamentals of English grammar. Longman
