@@ -6,6 +6,8 @@ title: Showcase of Teaching
 # Showcase of Teaching
 <em> as part of EDUC 8215 - TESOL Practice Teaching Assignment</em>
 
+![Teaching](/assets/img/putri-teaching-1.png)
+
 ### Adult Refugees Intermediate ESL Class
 
 #### Health Topic
