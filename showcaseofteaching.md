@@ -3,10 +3,21 @@ layout: default
 title: Showcase of Teaching
 ---
 
+<div class="tabsWrapper clear" id="t0">
+<ul class="tabs">
+    <li>
+        <a href="#t1">Lesson Plan</a></li>
+    <li>
+        <a href="#t2">Video Clip</a></li>
+    <li>
+        <a href="#t3">Students' Artifacts</a></li>
+    <li>
+        <a href="#t4">Reflection</a></li>    
+</ul>
+</div>
+
 # Showcase of Teaching
 <em> as part of EDUC 8215 - TESOL Practice Teaching Assignment</em>
-
-![Teaching](/assets/img/putri-teaching-1.png)
 
 # Adult Refugees Intermediate ESL Class
 
@@ -81,6 +92,9 @@ title: Showcase of Teaching
 
 
 ## Reflection
+
+![Teaching](/assets/img/putri-teaching-1.png){:class="selfie"}
+
 <p>These two lessons I showcased are from my teaching at HIAS PA for their Level 4 Adult ESL Class. The first lesson topic is health. In this lesson, the objective of the class is to identify and present perfect continuous dialogue, answer comprehension questions about health and flu shots, and discuss healthy lifestyle choices. The second lesson topic is digital literacy, intending to identify phishing emails, learn new vocabulary related to digital literacy, and share their opinion about the digital literacy-related issue. </p>
 
 <p>I chose these two lessons because I want to showcase how learners have their own agency and how their identities could help build the schema with multimodalities as the catalyst in their meaning-making process. For instance, in the first video, I tried to scaffold using pictures and asked them to guess what the picture described. Further, I asked them to define the term in their first language and showed them what it is called in my first language. In the second video clip, one of the students referred to her experience uploading and deleting something on social media. At the same time, another student also chimed in and explained their experience. The activity helped in bridging the discussion about the importance of digital literacy.</p>

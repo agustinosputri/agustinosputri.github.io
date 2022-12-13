@@ -3,6 +3,19 @@ layout: default
 title: Education Portfolio
 ---
 
+<div class="tabsWrapper clear" id="t0">
+<ul class="tabs">
+    <li>
+        <a href="#t1">Curriculum Design</a></li>
+    <li>
+        <a href="#t2">Test Development</a></li>
+    <li>
+        <a href="#t3">Learning Management System</a></li>
+    <li id="pdftab">
+        <a href="">PDF</a></li>
+</ul>
+</div>
+
 # Education Portfolio
 
 ## Curriculum Design 
@@ -18,9 +31,10 @@ title: Education Portfolio
 ## Learning Management System
 
 ### Discord
+- Set up a server for a personal development program including setting up automated bots, creating channels and work on the server logistics.
 
-- Class Dojo
+### Class Dojo
+- Set up a school server for an after school tutor online learning space for K1 to K6. 
 
-- Canvas
-
-- Google Classroom
+### Canvas
+- Help with organizing contents and announcement related to a course.
