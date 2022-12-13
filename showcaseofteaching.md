@@ -8,75 +8,76 @@ title: Showcase of Teaching
 
 ![Teaching](/assets/img/putri-teaching-1.png)
 
-### Adult Refugees Intermediate ESL Class
+# Adult Refugees Intermediate ESL Class
 
-#### Health Topic
-- Lesson Plan
+## 1. Health Topic
 
-	<div>
-  		<iframe
-   		frameborder="1"
- 	 		width="700"
- 	 		height="350"
-   	 	src="https://drive.google.com/file/d/1yiKdAgeYSkLzlxQ-B2i8TnrErLeQ7bvB/preview">
- 		 	</iframe>
-	</div>
+### Lesson Plan
+<div>
+  	<iframe
+   	frameborder="1"
+ 	 	width="700"
+ 	 	height="350"
+   	 src="https://drive.google.com/file/d/1yiKdAgeYSkLzlxQ-B2i8TnrErLeQ7bvB/preview">
+ 	</iframe>
+</div>
 
-- Video Clip
-
-	<div>
-  		<iframe
-   		frameborder="1"
- 	 		width="700"
- 	 		height="350"
-   	 	src="https://drive.google.com/file/d/1mIa_LgrGdsccjooHd5DF2WyTHyanTiV4/preview">
- 		 	</iframe>
-	</div>
-
-
-- Students' Artifacts
-	<div>
-  		<iframe
-   		frameborder="1"
- 	 		width="700"
- 	 		height="350"
-   	 	src="https://drive.google.com/file/d/1e348xxhFScv5mtDni5b2DdPFR3_rEhcH/preview">
- 		 	</iframe>
-	</div>
-
-#### Digital Literacy Topic
-- Lesson Plan
-
-	<div>
- 		<iframe
-   		frameborder="1"
- 	 		width="700"
- 	 		height="350"
- 	 	src="https://drive.google.com/file/d/1zw5cBIMLl0KRsmbunlZZ-HE14BAxD2v2/preview">
-		 	</iframe>
-	</div>
+### Video Clip
+<div>
+  	<iframe
+   	frameborder="1"
+ 	 	width="700"
+ 	 	height="350"
+   	 src="https://drive.google.com/file/d/1mIa_LgrGdsccjooHd5DF2WyTHyanTiV4/preview">
+ 	</iframe>
+</div>
 
 
-- Video Clip
-	<div>
-  		<iframe
-   		frameborder="1"
- 	 		width="700"
- 	 		height="350"
-   	 	src="https://drive.google.com/file/d/1E7ZT_r9q5ooznmBA29R6nO5VmZOnW14i/preview">
- 		 	</iframe>
-	</div>
+### Students' Artifacts
+<div>
+  	<iframe
+   	frameborder="1"
+ 	 	width="700"
+ 	 	height="350"
+   	 src="https://drive.google.com/file/d/1e348xxhFScv5mtDni5b2DdPFR3_rEhcH/preview">
+ 	</iframe>
+</div>
 
 
-- Students' Artifacts
-	<div>
-  		<iframe
-   		frameborder="1"
- 	 		width="700"
- 	 		height="350"
-   	 	src="https://drive.google.com/file/d/1G-3EeJwb_NzrSJR08pNKnS7eClKkbAkw/preview">
- 		 	</iframe>
-	</div>
+
+## 2.Digital Literacy Topic
+
+### Lesson Plan
+<div>
+ 	<iframe
+   	frameborder="1"
+ 	 	width="700"
+ 	 	height="350"
+ 	 src="https://drive.google.com/file/d/1zw5cBIMLl0KRsmbunlZZ-HE14BAxD2v2/preview">
+ 	</iframe>
+</div>
+
+
+## Video Clip
+<div>
+  	<iframe
+   	frameborder="1"
+ 	 	width="700"
+ 	 	height="350"
+   	 src="https://drive.google.com/file/d/1E7ZT_r9q5ooznmBA29R6nO5VmZOnW14i/preview">
+ 	</iframe>
+</div>
+
+
+## Students' Artifacts
+<div>
+  	<iframe
+   	frameborder="1"
+ 	 	width="700"
+ 	 	height="350"
+   	 src="https://drive.google.com/file/d/1G-3EeJwb_NzrSJR08pNKnS7eClKkbAkw/preview">
+ 	</iframe>
+</div>
 
 
 ## Reflection
