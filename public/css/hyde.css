@@ -71,19 +71,6 @@ html {
 }
 
 /* Sidebar links */
-.sidebar a {
-  color: #fff;
-}
-
-/* About section */
-.sidebar-about h1 {
-  color: #fff;
-  margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
-}
-
-/* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
 }
@@ -91,6 +78,7 @@ html {
   display: block;
   line-height: 1.75;
 }
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
@@ -98,6 +86,11 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+
+.sidebar a {
+  color: #fff;
+}
+
 
 /* Sticky sidebar
  *
