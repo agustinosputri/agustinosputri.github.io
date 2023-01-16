@@ -31,7 +31,7 @@ employment-university:
   - title: Digital Humanities Project Management Assistant
     company: Penn Libraries & Price Lab
     date: "2022–Present"
-    context: "Assist with developing project management workflows for digital projects in Price Lab and the Research Data & Digital Scholarship Department at Penn Libraries. Support troubleshooting for project development workflow, including but not limited to communicating with faculty members or university department staff, problem-solving technical issues, student-workers management, and operation work logistics related"
+    context: "Monitored projects' progress and administered multiple digital humanities web development, sites built, and user-testing. Collaborated with Research Data & Digital Scholarship Department of Penn Libraries, faculties at University of Pennsylvania, and student workers to deliver relevant, accurate, and impactful projects in a timely manner."
     page-tag-tech: project management
     page-tag: digitalhumanities
   - title: Peer Advisor
@@ -56,7 +56,14 @@ employment-university:
 
 ########### Industry Employment ###########
 employment-industry:
-  - title: Adult ESL Co-Teacher
+  - title: Adult Instructor
+    company: Resource Center for the Education and Employment of Women (RENEW)
+    date: "2023"
+    context: "Designed ESL teaching instructions and materials for immigrants, newly arrived refugees, and asylee clients, using interactive, learner-centered activities and UDL multimodal learning materials. Participated in weekly check-ins with the curriculum coordinator to plan and discuss curriculum improvement."
+    url: 
+    page-tag-tech: teaching
+    page-tag: teaching
+  - title: Adult Instructor
     company: HIAS Pennsylvania
     date: "2022"
     context: "With support from a lead teacher, taught weekly ESL lessons to a group of newly arrived refugees in the United States from Afghanistan, Eritrea, and Papua Nugenea at the intermediate level. Developed syllabus, and lesson plans, created tasks and materials and independently facilitated class sessions for online class environment"
@@ -92,15 +99,36 @@ employment-industry:
     date: "2018 - 2019"
     context: "Taught the English Language for grades K1 to K6 with experiential learning and activity-based learning."
     page-tag-tech: teaching
-    page-tag: teching
-
+    page-tag: teaching
+  - title:  Language Interpreter Consultant
+    company: US Navy Mercy
+    date: "2018"
+    context: "Interpreter for the US Navy Mercy at Pacific Partnership 2018. Pacific Partnership is an annual deployment of forces from the Pacific Fleet of the United States Navy (USN) in cooperation with Indonesia Government bodies and organizations (PUPR, BNPB, PMI), also international organizations such as USAID and The Red Cross."
+    page-tag-tech: interpreter
+    page-tag: interpreter
+  - title:  English Debating Coach
+    company: POLTEKKES KEMENKES Bengkulu
+    date: "2017"
+    context: "Developed a debating for competition syllabus, created appropriate media and material and gave constructive feedback and continuous evaluation to enhance English debating skills, critical thinking, and public speaking of the students to compete in NHPEDC and NUDC."
+    page-tag-tech: coach
+    page-tag: coach
+  - title:  EFL Teacher Internship
+    company: MAN 1 Kota Bengkulu.
+    date: "2017"
+    context: "Designed a TEFL syllabus, lesson plan, media, and material; also created testing and assessment items for 10th-grade students. Managed to handle more than 100 students from three different in-person classroom levels. Analyzed students' progress database in computer-based data formatting using excel pivot table."
+    page-tag-tech: teaching
+    page-tag: teaching
 
 ########### Publications ###########
 
 posters:
   - title: "Critical Pedagogy in Education Technology: Machine Translation in EFL Writing"
     venue: "PennTESOL-East's Spring Virtual Conference"
-    date: "2021"
+    date: "2022"
+    url: "https://www.penntesol-east.org/"
+  - title: "A Critical Deconstruction: AI-Based Test Application in EFL Writing Assessment"
+    venue: "5th Asia-Pacific Conference on  Education, Teaching & Technology"
+    date: "2023"
     url: "https://www.penntesol-east.org/"
 
 journals:
@@ -124,14 +152,14 @@ journals:
 
 ########### Talks ###########
 
-Talks:
-  - title: "Coffe Chats: University of Pennsylvania Experience"
-    institution:  USINDO
-    location: Indonesia
-    date: Nov. 2018
-    url: "https://www.hastac.org/blogs/sheishistoric/2018/05/02/oah18-digital-public-humanities-historians"
-    page-tag-tech: digital
-    page-tag: loremipsum
+#Talks:
+#  - title: "Coffe Chats: University of Pennsylvania Experience"
+#    institution:  USINDO
+#    location: Indonesia
+#    date: Nov. 2018
+#    url: "https://www.hastac.org/blogs/sheishistoric/2018/05/02/oah18-digital-public-humanities-historians"
+#    page-tag-tech: digital
+#    page-tag: 
 
 ########### Awards and Honors ###########
 awards:
