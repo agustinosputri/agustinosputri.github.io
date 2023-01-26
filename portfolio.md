@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Education Portfolio
+title: Portfolio
 ---
 
 <div class="tabsWrapper clear" id="t0">
@@ -11,6 +11,8 @@ title: Education Portfolio
         <a href="#t2">Test Development</a></li>
     <li>
         <a href="#t3">Learning Management System</a></li>
+    <li>
+        <a href="#t4">Learning Materials</a></li>
     <li id="pdftab">
         <a href="">PDF</a></li>
 </ul>
