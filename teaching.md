@@ -30,7 +30,7 @@ title: Teaching
             <p>My teaching was quite ableist without taking into consideration how will my learners receive it, whether it is accessible for them. Coming across Universal Design for Learning (CAST, 2011) and Web Content Accessibility Guide (W3C, 2018), I learn how to incorporate multimodalities and how to be more inclusive in my teaching. For instance, I incorporate consistent font using Comic Sans and using mobile-first designed when designing my lesson materials in virtual class. Making sure to provide differentiated instruction for students who prefer to participate to writing, typing, and even voice recording. I also use students L1 and their existing background knowledge to building the schema before introducing new vocabularies or terms, thus, it relevant for them. For instance, in a class where we talk about health, I show them picture and ask them what does it called in their L1, and then introduce them how does it called in English. One of my student also asked what does it called in my L1, Indonesian, and I shared it with them. I hope my students will also able to use multi modalities in their ways to learn languages beyond the classroom and utilize the resources around them to succeed later in life as the second language users.</p>
 
 <!-- 2: Showcase of Teaching -->
-<div class="clear">
+<!--<div class="clear">
 <h2><span id="t2"></span><a href="#t1"><i class="fa fa-chevron-up"></i></a>Showcase of Teaching</h2>
     <div class="column-last column-bottom clear">
         <h3>Adult Refugees Intermediate ESL Class</h3>
@@ -61,10 +61,10 @@ title: Teaching
                             height="350"
                             src="https://drive.google.com/file/d/1e348xxhFScv5mtDni5b2DdPFR3_rEhcH/preview">
                         </iframe>
-                    </div>
+                    </div>-->
 
 <!-- 3: Annotated Bibliography -->
-<div class="clear">
+<!--<div class="clear">
 <h2><span id="t3"></span><a href="#t1"><i class="fa fa-chevron-up"></i></a>Annotated Bibliography</h2>
     <div class="column-last column-bottom clear">
         <h3>Principle 1: Meaning making and transfer of learning happen within and beyond the classroom.</h3>
@@ -94,7 +94,7 @@ title: Teaching
                     <li>
                     <a href="https://wheelofnames.com/">Wheel of names</a></li>
                     <li>
-                    <a href="https://www.commonlit.org/">Common lit</a></li>
+                    <a href="https://www.commonlit.org/">Common lit</a></li>-->
 
 
 

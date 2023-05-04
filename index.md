@@ -5,15 +5,16 @@ title: About
 
 ![Image of Putri Agustinos](/assets/img/putri.png){:class="selfie"}
 
-Hi there! I'm Putri Agustinos. 
+Hi there! I'm Putri, a graduate student with a passion for language development and education. I'm currently pursuing my Master's degree in Educational Linguistics at Penn Graduate School of Education, with a focus on second language development, language assessment, and technology.
 
-Currently a second year graduate student at Penn Graduate School of Education in Educational Linguistics. My interests are ranging from the intersection of language learning & assessment, civic engagement, critical studies, and technology including but not limited to Digital Humanities in Applied Linguistic. In Summer 2022, I am partaking in [Penn Price Lab](https://pricelab.sas.upenn.edu/) as A Digital Humanities Project Management Assistant and I am also assisting international high school students at [Penn English Language Program](https://www.lps.upenn.edu/).
+One of my passions is second language development for refugees and improving access to ESL education for immigrants and refugees. I've worked with grassroots community-based programs such as RENEW, Moder Patsala and HIAS Pennsylvania to develop and deliver language instruction. Additionally, I worked at an ed-tech start-up in Indonesia called CoLearn, where I assisted in the development of online mobile apps educational materials for K12 learners.
 
-I have also engaged in numerous grassroots community-based programs related to immigrants access to ESL education such as [Moder Patsala](http://moderpatshala.org/) and [HIAS Pennsylvania](https://hiaspa.org/) and also previously worked in an ed-tech start-up in Indonesia, [CoLearn ID]([https://colearn.id/).
+I've had some amazing opportunities to work in the field already. Last summer, I started a position as a Digital Humanities Project Management Assistant at Penn Price Lab, where I managed multiple projects, conducted research on digital tools for language assessment, and collaborated with the team to develop project plans. I've also had experience working as an English Language Instructor at Penn English Language Program, where I helped international high school students improve their language skills by developing personalized lesson plans and providing individualized feedback.
 
-In my free time I find pleasures in immersing myself in nature through hiking, trailing, and gardening, also learning photography and birdwatching. Most of the times just reading under the trees or in the library and maybe do fun writing.
+In my free time, I enjoy spending time outdoors by hiking, kayaking. I'm also interested in photography and learn to cook culinaries from around the world. You can usually find me reading under a tree or in the library, or hoping off in local coffee shops.
 
-Check out [my personal informal writing](https://medium.com/@putri.agustinos).
+Overall, I'm passionate about second language development, TESOL ESL instruction, project management, instructional design, language assessment, civic engagement, and technology in education. If you're interested in learning more about me or my work, please feel free to contact me at putri@upenn.edu or putri.agustinos27@gmail.com
+
 
 ## Terima Kasih
 
