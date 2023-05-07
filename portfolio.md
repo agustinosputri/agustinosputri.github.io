@@ -20,6 +20,17 @@ title: Portfolio
 
 # Education Portfolio
 
+## Digital Portfolio
+
+<div>
+    <iframe
+        frameborder="1"
+        width="700"
+        height="350"
+        src="hhttps://drive.google.com/file/d/1TpnpgnvoE6WRIJDzTI-uPylts39sWk7e/preview">
+    </iframe>
+</div>
+
 ## Curriculum Design 
 - Adult Intermediate ESL Curriculum Design for Newly Arrived Refugees in the United States
 (<em> please email for access <em/>)
