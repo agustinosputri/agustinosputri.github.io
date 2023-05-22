@@ -20,7 +20,7 @@ title: Portfolio
 
 # Education Portfolio
 
-## Digital Portfolio
+## General Learning Specialist and Teaching Digital Portfolio
 
 <div>
     <iframe
@@ -28,6 +28,37 @@ title: Portfolio
         width="700"
         height="350"
         src="https://drive.google.com/file/d/1TpnpgnvoE6WRIJDzTI-uPylts39sWk7e/preview">
+    </iframe>
+</div>
+
+## Teaching Artifacts
+### Adult Learners High Beginner
+<div>
+    <iframe
+        frameborder="1"
+        width="700"
+        height="350"
+        src="https://drive.google.com/file/d/17Yq5DT0CdIgCAPsnO0ct4j4miBw9ZeXn/preview">
+    </iframe>
+</div>
+
+### Adult Learners Intermediate - Digital Literacy
+<div>
+    <iframe
+        frameborder="1"
+        width="700"
+        height="350"
+        src="https://drive.google.com/file/d/1qR9NFWCr7mjAv8JiFA5L3DZYyzD5joIR/preview">
+    </iframe>
+</div>
+
+### Adult Learners Intermediate - CV Writing
+<div>
+    <iframe
+        frameborder="1"
+        width="700"
+        height="350"
+        src="https://drive.google.com/file/d/1dFgcB_0sL3JLY878Jj0SqsKfGCuN3l0W/preview">
     </iframe>
 </div>
 
