@@ -22,7 +22,7 @@ title: projectcopy
 <br>
 <div class="row 2">
     <div class="large-6 columns">
-        <img src="{{ site.urlimg }}j_garcon.jpg" alt="">
+        <img src="{{ site.urlimg }}selfie.jpg" alt="">
         <div class="accordion" data-accordion>
             <div class="accordion-navigation">
                 <a href="#panel1a" class="text-center">Project Archivist: Jennifer Garcon, Ph.D.</a>

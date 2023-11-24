@@ -5,16 +5,18 @@ title: Hi, I'm Putri 👋🏼
 
 ![Image of Putri Agustinos](/assets/img/putri.png){:class="selfie"}
 
-Hi there! I'm an adult language educator with passion for civic engagement, education technology and UX/UI Design. I received my master degree in Educational Linguistics from University of Pennylvania Graduate School of Education, with a focus on second language development, universal design for learning, and technology.
+## Who I Am
 
-<div>
-    <iframe
-        frameborder="0.7"
-        width="800"
-        height="1300"
-        src="https://dashboard-pa.carrd.co/">
-    </iframe>
-</div>
+Hi there! I'm an adult language educator with passion for Second Language Acquisition in adult learners, civic engagement, and digital humanities. I also have experienced in education technology field for STEM and Language subject for K12 students and currectly interested to explore more on accessibility through UX/UI Design. I received my master degree in Educational Linguistics from University of Pennylvania Graduate School of Education, with a focus on second language development, universal design for learning, and technology.
+
+## My Expertise
+
+In 2023, I wrote my master final capstone on how **Culturally Sustaining Pedadogy** as a anchor develops **Students' Learning Artifacts** on ESL adult refugees learners with **Digital Humanities** approach. It's titled ***Promoting Culturally Sustaining Pedagogy for Women Refugees in Adult ESL Classroom***. My capstone was inspired by my previous Action Research Project on **Multimodalities** and **Accesibilities**. It's titled ***Towards Non-Ableist English language Teaching: Inclusive Multimodalities in the Intermediate Adult ESL Refugees Learners Virtual Classroom***.
+
+As an adult language educator, I remain actively engaged in exploring these research area and staying abreast of the latest literature concerning **Multimodalities**, yet the demands of my everyday work require me to adhere practically within a more robust academic framework.
+
+Coming from a background in Educational Technology industry field and also involved in various Digital Humanities (DH) projects, I remain passionate to stay updated on **data, tech, and DH** in education specifically related to **Universal Design for Learning** and **UI/UX Design**. 
+
 
 ## Terima Kasih
 
