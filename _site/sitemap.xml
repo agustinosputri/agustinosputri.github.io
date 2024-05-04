@@ -12,32 +12,12 @@
 	</url>
 	
 	<url>
-		<loc>https://agustinosputri.github.io/project/fourthpost/</loc>
-		<lastmod>2023-05-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://agustinosputri.github.io/project/thirdpost/</loc>
-		<lastmod>2023-05-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://agustinosputri.github.io/blog/firstpost/</loc>
 		<lastmod>2024-05-01</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://agustinosputri.github.io/blog/secondpost/</loc>
-		<lastmod>2024-05-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://agustinosputri.github.io/project/firstpost/</loc>
-		<lastmod>2024-05-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://agustinosputri.github.io/project/secondpost/</loc>
 		<lastmod>2024-05-01</lastmod>
 	</url>
 	
@@ -72,6 +52,11 @@
 	</url>
 	
 	<url>
+		<loc>https://agustinosputri.github.io/tags/second-tag/</loc>
+		<lastmod>2024-05-04</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://agustinosputri.github.io/tags/teaching/</loc>
 		<lastmod>2024-05-04</lastmod>
 	</url>
@@ -82,17 +67,12 @@
 	</url>
 	
 	<url>
-		<loc>https://agustinosputri.github.io/tags/second-tag/</loc>
+		<loc>https://agustinosputri.github.io/gallery/</loc>
 		<lastmod>2024-05-04</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://agustinosputri.github.io/portfolio/</loc>
-		<lastmod>2024-05-04</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://agustinosputri.github.io/gallery/</loc>
 		<lastmod>2024-05-04</lastmod>
 	</url>
 </urlset>
