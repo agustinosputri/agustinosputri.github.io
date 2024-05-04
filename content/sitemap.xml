@@ -57,6 +57,14 @@
 	</url>
 	
 	<url>
+<<<<<<< Updated upstream:content/sitemap.xml
+=======
+		<loc>https://agustinosputri.github.io/tags/uxr/</loc>
+		<lastmod>2024-05-04</lastmod>
+	</url>
+	
+	<url>
+>>>>>>> Stashed changes:_site/sitemap.xml
 		<loc>https://agustinosputri.github.io/tags/teaching/</loc>
 		<lastmod>2024-05-04</lastmod>
 	</url>
@@ -67,11 +75,14 @@
 	</url>
 	
 	<url>
+<<<<<<< Updated upstream:content/sitemap.xml
 		<loc>https://agustinosputri.github.io/tags/uxr/</loc>
 		<lastmod>2024-05-04</lastmod>
 	</url>
 	
 	<url>
+=======
+>>>>>>> Stashed changes:_site/sitemap.xml
 		<loc>https://agustinosputri.github.io/tags/second-tag/</loc>
 		<lastmod>2024-05-04</lastmod>
 	</url>
