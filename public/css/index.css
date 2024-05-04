@@ -1,6 +1,6 @@
 /* Defaults */
 :root {
-	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family: -apple-system, Be Vietnam Pro, monospace;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
@@ -13,9 +13,9 @@
 	--background-color: #fff;
 
 	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	--text-color-link: #b0c383;
+	--text-color-link-active: #d1d0ba;
+	--text-color-link-visited: #bbc5a8;
 
 	--syntax-tab-size: 2;
 }
@@ -27,11 +27,11 @@
 		--color-gray-90: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		--text-color-link: #dee2d8;
+		--text-color-link-active: #dee2d8;
+		--text-color-link-visited: #dbe2ce;
 
-		--background-color: #15202b;
+		--background-color: #566444;
 	}
 }
 
@@ -267,4 +267,43 @@ a[href].header-anchor:focus,
 
 h2 + .header-anchor {
 	font-size: 1.5em;
+}
+
+/*Media Gallery*/
+.smol-aspect-ratio-gallery {
+  --min: 15rem;
+  --aspect-ratio: 4/3;
+  --gap: 0;
+}
+
+.smol-aspect-ratio-gallery li {
+  height: max(25vh, 15rem);
+}
+
+@supports (aspect-ratio: 1) {
+  .smol-aspect-ratio-gallery li {
+    aspect-ratio: var(--aspect-ratio);
+    height: auto;
+  }
+}
+
+.smol-aspect-ratio-gallery img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/*Flexbox*/
+.smol-flexbox-grid {
+  --min: 10ch;
+  --gap: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.smol-flexbox-grid > * {
+  flex: 1 1 var(--min);
 }
