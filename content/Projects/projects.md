@@ -18,6 +18,7 @@ eleventyNavigation:
         height="300"
         src="https://drive.google.com/file/d/1TpnpgnvoE6WRIJDzTI-uPylts39sWk7e/preview">
     </iframe>
+</div>
     
 ## Teaching Artifacts
 ### Adult Learners High Beginner

@@ -8,8 +8,14 @@ eleventyNavigation:
 
 Me in multiverse: everything everywhere all at once
 
-
-![Image of Putri Agustinos](/public/img/putri.png)
+<div>
+    <iframe
+        frameborder="1"
+        width="300"
+        height="300"
+        src="/public/img/putri.png">
+    </iframe>
+</div>
 
 Hi there! I'm Putri, an adult language educator with passion for civic engagement, education technology and UX/UI Design. I received my master degree in Educational Linguistics from University of Pennylvania Graduate School of Education, with a focus on second language development, universal design for learning, and technology.
 
