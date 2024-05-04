@@ -5,6 +5,6 @@ eleventyNavigation:
   order: 5
 ---
 
-- ![Image 1](/public/img/central-park-spring.png)
-- ![Image 2](/public/img/bryce-canyon.png)
-- ![Image 3](/public/img/capitol-reef.png)
+- ![Image 1](/public/img/central-park-spring1.png)
+- ![Image 2](/public/img/bryce-canyon1.png)
+- ![Image 3](/public/img/capitol-reef1.png)
