@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
+	<title>Putri Agustinos</title>
+	<subtitle>I am writing about my experiences.</subtitle>
+	<link href="https://agustinosputri.github.io/feed/feed.xml" rel="self"/>
+	<link href="https://agustinosputri.github.io/"/>
+	<updated>2024-05-01T00:00:00Z</updated>
+	<id>https://agustinosputri.github.io</id>
+	<author>
+		<name>Putri</name>
+		<email>agustinosputri@gmail.com</email>
+	</author>
+	
+	<entry>
+		<title>Maybe UXR</title>
+		<link href="https://agustinosputri.github.io/blog/secondpost/"/>
+		<updated>2024-05-01T00:00:00Z</updated>
+		<id>https://agustinosputri.github.io/blog/secondpost/</id>
+		<content type="html">&lt;p&gt;Lorem Ipsum&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Project Management in DH project.</title>
+		<link href="https://agustinosputri.github.io/blog/firstpost/"/>
+		<updated>2024-05-01T00:00:00Z</updated>
+		<id>https://agustinosputri.github.io/blog/firstpost/</id>
+		<content type="html">&lt;p&gt;First post&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>ESL</title>
+		<link href="https://agustinosputri.github.io/blog/thirdpost/"/>
+		<updated>2023-05-03T00:00:00Z</updated>
+		<id>https://agustinosputri.github.io/blog/thirdpost/</id>
+		<content type="html">&lt;h1 id=&quot;maybe&quot; tabindex=&quot;-1&quot;&gt;Maybe &lt;a class=&quot;header-anchor&quot; href=&quot;https://agustinosputri.github.io/blog/thirdpost/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Fourth?</title>
+		<link href="https://agustinosputri.github.io/blog/fourthpost/"/>
+		<updated>2023-05-03T00:00:00Z</updated>
+		<id>https://agustinosputri.github.io/blog/fourthpost/</id>
+		<content type="html">&lt;h1 id=&quot;heading&quot; tabindex=&quot;-1&quot;&gt;Heading &lt;a class=&quot;header-anchor&quot; href=&quot;https://agustinosputri.github.io/blog/fourthpost/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;amazing-heading&quot; tabindex=&quot;-1&quot;&gt;Amazing heading &lt;a class=&quot;header-anchor&quot; href=&quot;https://agustinosputri.github.io/blog/fourthpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;list 1&lt;/li&gt;
+&lt;li&gt;list 2&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+</feed>
