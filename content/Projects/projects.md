@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 display: block
 eleventyNavigation:
-  key: Projects
+  key: Portfolio
   order: 4
 ---
 
