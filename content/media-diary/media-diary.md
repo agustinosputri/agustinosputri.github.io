@@ -1,5 +1,7 @@
 ---
 layout: layouts/base.njk
+display: block
+eleventyNavigation:
   key: Media Diary
   order: 5
 ---
