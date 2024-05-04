@@ -1,13 +1,29 @@
 ---
 layout: layouts/base.njk
-display: block
 eleventyNavigation:
   key: Portfolio
   order: 4
 ---
 
-# Projects & Portfolio
+# This is portfolio
 
+
+<div class="tabsWrapper clear" id="t0">
+<ul class="tabs">
+    <li>
+        <a href="#t1">Curriculum Design</a></li>
+    <li>
+        <a href="#t2">Test Development</a></li>
+    <li>
+        <a href="#t3">Learning Management System</a></li>
+    <li>
+        <a href="#t4">Learning Materials</a></li>
+    <li id="pdftab">
+        <a href="">PDF</a></li>
+</ul>
+</div>
+
+# Education Portfolio
 
 ## General Learning Specialist and Teaching Digital Portfolio
 
@@ -19,7 +35,7 @@ eleventyNavigation:
         src="https://drive.google.com/file/d/1TpnpgnvoE6WRIJDzTI-uPylts39sWk7e/preview">
     </iframe>
 </div>
-    
+
 ## Teaching Artifacts
 ### Adult Learners High Beginner
 <div>
