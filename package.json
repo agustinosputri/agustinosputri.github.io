@@ -35,6 +35,8 @@
 		"markdown-it-anchor": "^8.6.7"
 	},
 	"dependencies": {
+		"glob": "^8.1.0",
+		"glob-promise": "^6.0.5",
 		"netlify-plugin-cache": "^1.0.3"
 	}
 }

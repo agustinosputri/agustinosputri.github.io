@@ -52,11 +52,6 @@
 	</url>
 	
 	<url>
-		<loc>https://agustinosputri.github.io/tags/second-tag/</loc>
-		<lastmod>2024-05-04</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://agustinosputri.github.io/tags/teaching/</loc>
 		<lastmod>2024-05-04</lastmod>
 	</url>
@@ -67,12 +62,17 @@
 	</url>
 	
 	<url>
-		<loc>https://agustinosputri.github.io/gallery/</loc>
+		<loc>https://agustinosputri.github.io/tags/second-tag/</loc>
 		<lastmod>2024-05-04</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://agustinosputri.github.io/portfolio/</loc>
+		<lastmod>2024-05-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://agustinosputri.github.io/gallery/</loc>
 		<lastmod>2024-05-04</lastmod>
 	</url>
 </urlset>

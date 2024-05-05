@@ -1,10 +1,11 @@
 ---
 layout: layouts/base.njk
+templateEngineOverride: md
 eleventyNavigation:
   key: Gallery
   order: 5
 ---
 
-- ![Image 1](/public/img/central-park-spring1.png)
-- ![Image 2](/public/img/bryce-canyon1.png)
-- ![Image 3](/public/img/capitol-reef1.png)
+<h1>Image Gallery</h1>
+
+![Bryce Canyon](bryce-canyon-1.jpeg "Bryce_Canyon") ![Central Park](central-park-spring.jpeg "Central_Park")
