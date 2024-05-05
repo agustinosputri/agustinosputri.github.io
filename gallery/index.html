@@ -338,26 +338,10 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			<h1>Image Gallery</h1>
-<p><img src="https://github.com/agustinosputri/agustinosputri.github.io/blob/4bac21065a208cb492da9efdd873d72183bb9a8c/img/bryce-canyon-1.jpeg" alt="Bryce Canyon" title="Bryce_Canyon"> <img src="https://github.com/agustinosputri/agustinosputri.github.io/blob/4bac21065a208cb492da9efdd873d72183bb9a8c/img/central-park-spring.png" alt="Central Park" title="Central_Park"></p>
-<div id="gallery">
-{% for image in collections.images %}
-	<div class="cssbox">
-		<a href="#image{{forloop.index}}" id="image{{forloop.index}}"><img src="{{image.thumbpath}}" class="cssbox_thumb">
-			<span class="cssbox_full"><img src="{{image.path}}"></span></a>
-		<a class="cssbox_close" href="#void"></a>
-		{% if forloop.first == false %}
-			<a class="cssbox_prev" href="#image{{ forloop.index | minus: 1 }}">&lt;</a>
-		{% endif %}
-		{% if forloop.last == false %}
-		<a class="cssbox_next" href="#image{{ forloop.index | plus: 1}}">&gt;</a>
-		{% endif %}
-		</div>
-		{% endfor %}
-	</div>
+<p><img src="bryce-canyon-1.jpeg" alt="Bryce Canyon" title="Bryce_Canyon"> <img src="central-park-spring.jpeg" alt="Central Park" title="Central_Park"></p>
 
 		</main>
 
-		
 		<footer>
 			<!-- Share sheet -->
     		<div class="sharesheet">
@@ -366,6 +350,6 @@ h2 + .header-anchor {
 		      <a href="mailto:agustinosputri@gmail.com"><i class="fa fa-fw fa-envelope-o shareicon"></i></a>
 		</footer>
 
-		<!-- This page `/gallery/` was built on 2024-05-05T00:26:30.183Z -->
+		<!-- This page `/gallery/` was built on 2024-05-05T01:54:31.768Z -->
 	</body>
 </html>
