@@ -23,6 +23,15 @@ eleventyNavigation:
 </ul>
 </div>
 
+# UX Research Portfolio
+
+## Students Absenteeism
+- New York. 2024. Coming soon.
+
+## Learning Apps A/B testing
+- In 2021. Coming soon
+
+
 # Education Portfolio
 
 ## General Learning Specialist and Teaching Digital Portfolio
