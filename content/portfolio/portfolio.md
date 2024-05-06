@@ -26,10 +26,10 @@ eleventyNavigation:
 # UX Research Portfolio
 
 ## Students Absenteeism
-- New York. 2024. Coming soon.
+- In 2024. Coming soon.
 
-## Learning Apps A/B testing
-- In 2021. Coming soon
+## Learning Apps Usability Testing
+- In 2021. Coming soon.
 
 
 # Education Portfolio

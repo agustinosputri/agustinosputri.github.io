@@ -2,23 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://agustinosputri.github.io/blog/fourthpost/</loc>
-		<lastmod>2023-05-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://agustinosputri.github.io/blog/thirdpost/</loc>
-		<lastmod>2023-05-03</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://agustinosputri.github.io/blog/firstpost/</loc>
 		<lastmod>2024-05-01</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://agustinosputri.github.io/blog/secondpost/</loc>
-		<lastmod>2024-05-01</lastmod>
+		<lastmod>2024-05-02</lastmod>
 	</url>
 	
 	<url>
@@ -47,22 +37,12 @@
 	</url>
 	
 	<url>
+		<loc>https://agustinosputri.github.io/tags/project-management/</loc>
+		<lastmod>2024-05-04</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://agustinosputri.github.io/tags/uxr/</loc>
-		<lastmod>2024-05-04</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://agustinosputri.github.io/tags/teaching/</loc>
-		<lastmod>2024-05-04</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://agustinosputri.github.io/tags/esl/</loc>
-		<lastmod>2024-05-04</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://agustinosputri.github.io/tags/second-tag/</loc>
 		<lastmod>2024-05-04</lastmod>
 	</url>
 	
